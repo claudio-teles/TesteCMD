@@ -7,9 +7,12 @@ import java.sql.SQLException;
 public class TesteCMD {
 
   public static void main(String[] args) {
+    // Local no disco rígido onde está localizado o arquivo .jar a ser adicionado ao path ou classpath do projeto.
     // driver /home/claudio/Jars/drivers/SQLite3/sqlite-jdbc-3.30.1.jar
     connect();
+    // CMD na mesma pasta one está o o metodo main
     // javac -d /home/claudio/workspaces/workspace-java/TesteCMD/bin -cp /home/claudio/Jars/drivers/SQLite3/sqlite-jdbc-3.30.1.jar: TesteCMD.java
+    // CMD na mesma pasta onde está o diretório bin
     // java -cp /home/claudio/Jars/drivers/SQLite3/sqlite-jdbc-3.30.1.jar: teste_cmd.TesteCMD
     //System.out.println(System.getProperty("java.class.path"));
   }
